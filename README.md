@@ -211,5 +211,5 @@ ManaVortex for being the most responsive and active modder helping community mem
 
 
 
-"NPV Studio" iscompletely vibe coded via Chatgpt Codex
+"NPV Studio" is completely vibe coded via Chatgpt Codex
 
