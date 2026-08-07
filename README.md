@@ -4,6 +4,9 @@ Look, I am lazy. I don't want to read pages of manuals and poke around multiple 
 
 TL:DR - you should be able to fire it up and use the tool with the minimal instruction included on screen to make a Vortex importable NPV (AMM spawn only, I am considering photomode).
 
+VIDEO TUTORIAL
+https://www.youtube.com/watch?v=Od9B-1cmTXQ
+
 This is a guided desktop tool that turns V’s character-creator settings into a spawnable (AMM only), Vortex-ready NPV. 
 It automates the difficult Blender, WolvenKit setup while keeping the game installation read-only.
 This should simplify the NPV process allow more people to make custom characters for their artistic projects.
