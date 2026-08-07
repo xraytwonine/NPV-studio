@@ -1,5 +1,5 @@
 # NPV-studio
-Description
+
 Look, I am lazy. I don't want to read pages of manuals and poke around multiple freeware that's ultimately incohesive with a steep learning curve... but I ended up doing that anyways, so may be now you don't have to?
 
 TL:DR - you should be able to fire it up and use the tool with the minimal instruction included on screen to make a Vortex importable NPV (AMM spawn only, I am considering photomode).
