@@ -110,7 +110,7 @@ NPV Studio creates `settings.json` and its default workspace beside the executab
 
 The portable executable does not redistribute Cyberpunk, WolvenKit, Blender, the WolvenKit Blender IO Suite, or the reusable NPV source project. Their paths can be selected in the application.
 
-Appearance Menu Mod and Codeware are in-game runtime mods. They are not used to build the ZIP and appear as **Install Mod** rather than failed build dependencies when absent.
+Appearance Menu Mod Appearance creator mod and Codeware are in-game runtime mods. They are not used to build the ZIP and appear as **Install Mod** rather than failed build dependencies when absent.
 
 ## Output folders
 
@@ -174,6 +174,7 @@ HARD Requirements
 mods (install manually or via vortex):
 •  Cyber Engine Tweaks
 •  Appearance Menu Mod
+•  Appearance Creator Mod
 
 
 Software:
