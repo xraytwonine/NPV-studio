@@ -1,0 +1,132 @@
+{
+  "schema_version": 1,
+  "game_version": "2.3",
+  "status": "provisional_alpha",
+  "source_notes": [
+    "Ranges are based on the RedModding character creator cheat sheet and observed game UI.",
+    "Exact mesh, material, and morphtarget paths require template and WolvenKit validation before spawnable builds are enabled.",
+    "Skin type 05 is retained because it is visible in the supplied masculine character screenshot."
+  ],
+  "selectors": {
+    "skin_tone": {"min": 1, "max": 12, "kind": "material"},
+    "skin_type": {"min": 1, "max": 5, "kind": "material"},
+    "hairstyle": {"min": 1, "max": 50, "kind": "mesh"},
+    "hair_color": {"min": 1, "max": 35, "kind": "material"},
+    "eyes": {"min": 1, "max": 22, "kind": "morph"},
+    "eye_color": {"min": 1, "max": 39, "kind": "material"},
+    "eyebrows": {"min": 0, "max": 11, "kind": "appearance", "zero_label": "Off"},
+    "eyebrow_color": {"min": 1, "max": 35, "kind": "material"},
+    "eyelash_color": {"min": 1, "max": 35, "kind": "material"},
+    "nose": {"min": 1, "max": 22, "kind": "morph"},
+    "mouth": {"min": 1, "max": 22, "kind": "morph"},
+    "jaw": {"min": 1, "max": 22, "kind": "morph"},
+    "ears": {"min": 1, "max": 22, "kind": "morph"},
+    "beard": {"min": 0, "max": 12, "kind": "appearance", "zero_label": "Off"},
+    "beard_style": {"min": 1, "max": 7, "kind": "appearance"},
+    "beard_color": {"min": 1, "max": 35, "kind": "material"},
+    "cyberware": {"min": 0, "max": 8, "kind": "appearance", "zero_label": "Off"},
+    "facial_scars": {"min": 0, "max": 9, "kind": "appearance", "zero_label": "Off"},
+    "facial_tattoos": {"min": 0, "max": 11, "kind": "appearance", "zero_label": "Off"},
+    "piercings": {"min": 0, "max": 16, "kind": "mesh", "zero_label": "Off"},
+    "piercing_color": {"min": 1, "max": 16, "kind": "material"},
+    "teeth": {"min": 0, "max": 4, "kind": "appearance"},
+    "eye_makeup": {"min": 0, "max": 20, "kind": "appearance", "zero_label": "Off"},
+    "eye_makeup_color": {"min": 1, "max": 14, "kind": "material"},
+    "lip_makeup": {"min": 0, "max": 20, "kind": "appearance", "zero_label": "Off"},
+    "lip_makeup_color": {"min": 1, "max": 14, "kind": "material"},
+    "cheek_makeup": {"min": 0, "max": 14, "kind": "appearance", "zero_label": "Off"},
+    "cheek_makeup_color": {"min": 1, "max": 8, "kind": "material"},
+    "blemishes": {"min": 0, "max": 3, "kind": "appearance", "zero_label": "Off"},
+    "blemish_color": {"min": 1, "max": 6, "kind": "material"},
+    "nail_color": {"min": 1, "max": 37, "kind": "material"},
+    "nipples": {"min": 0, "max": 3, "kind": "appearance", "zero_label": "Off"},
+    "body_tattoos": {"min": 0, "max": 7, "kind": "appearance", "zero_label": "Off"},
+    "body_scars": {"min": 0, "max": 4, "kind": "appearance", "zero_label": "Off"},
+    "pubic_hair_style": {"min": 0, "max": 5, "kind": "appearance", "zero_label": "Off", "provisional": true},
+    "pubic_hair_color": {"min": 1, "max": 5, "kind": "material"}
+  },
+  "morph_name_encoding": {
+    "eyes": "1",
+    "nose": "2",
+    "mouth": "3",
+    "jaw": "4",
+    "ears": "5"
+  },
+  "starter_outfit": {
+    "name": "V's starter outfit",
+    "status": "verified_vanilla_resources",
+    "source_note": "Frame-specific vanilla meshes and mesh appearances verified with WolvenKit 8.20. The production compiler replaces the tutorial casual clothing with these components.",
+    "body_frames": {
+      "male": [
+        {
+          "slot": "inner_torso",
+          "component_name": "t1_npvstudio_slot",
+          "display_name": "V's tattered crop top / old tank top",
+          "item_id": "Q000_Nomad_TShirt",
+          "mesh_path": "base\\characters\\garment\\player_equipment\\torso\\t1_073_shirt__torn_shirt\\t1_073_pma_shirt__torn_shirt.mesh",
+          "mesh_appearance": "linen_nomad",
+          "chunk_mask": "9223372036854775807"
+        },
+        {
+          "slot": "legs",
+          "component_name": "l1_npvstudio_slot",
+          "display_name": "V's pants",
+          "item_id": "Q001_Pants",
+          "mesh_path": "base\\characters\\garment\\player_equipment\\legs\\l1_091_pants__silverhand\\l1_091_pma_pants__silverhand.mesh",
+          "mesh_appearance": "black",
+          "chunk_mask": "9223372036854775807"
+        },
+        {
+          "slot": "feet",
+          "component_name": "s1_npvstudio_slot",
+          "display_name": "V's sneakers",
+          "item_id": "Q001_Shoes",
+          "mesh_path": "base\\characters\\garment\\player_equipment\\feet\\s1_004_shoe__sneakers_high\\s1_004_pma_shoe__sneakers_high.mesh",
+          "mesh_appearance": "default",
+          "chunk_mask": "9223372036854775807"
+        }
+      ],
+      "female": [
+        {
+          "slot": "inner_torso",
+          "component_name": "t1_npvstudio_slot",
+          "display_name": "V's tattered crop top",
+          "item_id": "Q000_Nomad_TShirt",
+          "mesh_path": "base\\characters\\garment\\player_equipment\\torso\\t1_073_shirt__torn_shirt\\t1_073_pwa_shirt__torn_shirt.mesh",
+          "mesh_appearance": "linen_nomad",
+          "chunk_mask": "9223372036854775807"
+        },
+        {
+          "slot": "legs",
+          "component_name": "l1_npvstudio_slot",
+          "display_name": "V's pants",
+          "item_id": "Q001_Pants",
+          "mesh_path": "base\\characters\\garment\\player_equipment\\legs\\l1_091_pants__silverhand\\l1_091_pwa_pants__silverhand.mesh",
+          "mesh_appearance": "black",
+          "chunk_mask": "9223372036854775807"
+        },
+        {
+          "slot": "feet",
+          "component_name": "s1_npvstudio_slot",
+          "display_name": "V's sneakers",
+          "item_id": "Q001_Shoes",
+          "mesh_path": "base\\characters\\garment\\player_equipment\\feet\\s1_059_shoe__judy\\s1_059_pwa_shoe__judy.mesh",
+          "mesh_appearance": "default",
+          "chunk_mask": "9223372036854775807"
+        }
+      ]
+    }
+  },
+  "component_slots": [
+    {"category": "Headwear 1", "component_name": "h1_npvstudio_slot", "prefix": "h1"},
+    {"category": "Headwear 2", "component_name": "h2_npvstudio_slot", "prefix": "h2"},
+    {"category": "Inner Torso", "component_name": "t1_npvstudio_slot", "prefix": "t1"},
+    {"category": "Outer Torso", "component_name": "t2_npvstudio_slot", "prefix": "t2"},
+    {"category": "Legs", "component_name": "l1_npvstudio_slot", "prefix": "l1"},
+    {"category": "Shoes", "component_name": "s1_npvstudio_slot", "prefix": "s1"},
+    {"category": "Gloves", "component_name": "g1_npvstudio_slot", "prefix": "g1"},
+    {"category": "Accessory 1", "component_name": "i1_npvstudio_slot_01", "prefix": "i1"},
+    {"category": "Accessory 2", "component_name": "i1_npvstudio_slot_02", "prefix": "i1"},
+    {"category": "Accessory 3", "component_name": "i1_npvstudio_slot_03", "prefix": "i1"}
+  ]
+}

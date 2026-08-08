@@ -1,0 +1,138 @@
+{
+  "schema_version": 1,
+  "profile_id": "valkyrie_female_native_hair_v1",
+  "display_name": "Valkyrie - verified feminine native-hair baseline",
+  "verification": {
+    "status": "in_game_verified",
+    "verified_on": "2026-08-02",
+    "game_version": "2.3",
+    "evidence": "All five independently spawnable AMM entities rendered with correctly seated native hairstyles.",
+    "source_head_build": "valkyrie_head_20260802T203122Z",
+    "source_lineup_build": "tutorial_women_hair_lineup_20260802T225948Z",
+    "package_filename": "tutorial_women_hair_lineup_20260802T225948Z.zip",
+    "package_sha256": "60bbb991f7de1efec49ba05ef78ea807728a4a4621dc449a0825057a5a89a0f9"
+  },
+  "character": {
+    "name": "Valkyrie",
+    "namespace": "valkyrie",
+    "body_frame": "female",
+    "voice": "feminine",
+    "head": {
+      "eyes": 12,
+      "nose": 5,
+      "mouth": 16,
+      "jaw": 20,
+      "ears": 4
+    },
+    "appearance": {
+      "skin_tone": 6,
+      "skin_type": 4,
+      "hair_color": 16,
+      "eye_color": 2,
+      "eyebrows": 2,
+      "eyebrow_color": 4,
+      "eyelash_color": 4,
+      "cyberware": 7,
+      "eye_makeup": 6,
+      "eye_makeup_color": 1,
+      "body_tattoos": 3,
+      "nipples": 0,
+      "nail_style": "short",
+      "nail_color": 11,
+      "chest": "default"
+    }
+  },
+  "body": {
+    "mesh": "tutorial\\npv\\your_female_character\\body\\t0_000_pwa_base__full.mesh",
+    "skin_appearance": "03_ca_senna_00_amber",
+    "tattoo_mesh": "base\\characters\\common\\player_base_bodies\\player_female_average\\tattoos\\tx_000_pwa_base__full_tattoo_03.mesh",
+    "seamfix": {
+      "component": "t0_000_pwa_base__full_seamfix",
+      "mesh": "base\\characters\\common\\player_base_bodies\\player_female_average\\t0_000_pwa_base__full_seamfix.mesh",
+      "enabled_by_default": true,
+      "toggleable_in_appearance_creator": true
+    },
+    "nipple_overlay": {
+      "mesh": null,
+      "status": "deferred",
+      "note": "The current default appearance is visually unsatisfactory; preserve this baseline and do not infer a replacement."
+    }
+  },
+  "verified_hairstyles": {
+    "8": {
+      "binding_target": "root",
+      "meshes": [
+        {
+          "component": "hh_hair",
+          "path": "base\\characters\\common\\hair\\hh_036_ma__high_tight\\hh_036_wa__high_tight.mesh"
+        }
+      ],
+      "shadow": "base\\characters\\common\\hair\\shadow_meshes\\hh_045_ma__short_spiked_shadow_npc.mesh",
+      "controller": null
+    },
+    "11": {
+      "binding_target": "hair_dangle",
+      "meshes": [
+        {
+          "component": "hh_hair",
+          "path": "base\\characters\\common\\hair\\hh_091_wa__dakota\\hh_091_wa__dakota.mesh"
+        },
+        {
+          "component": "hh_hair_braid",
+          "path": "base\\characters\\common\\hair\\hh_091_wa__dakota\\hh_091_wa__dakota_braid.mesh"
+        },
+        {
+          "component": "hh_hair_band",
+          "path": "base\\characters\\common\\hair\\hh_091_wa__dakota\\hh_091_wa__dakota_braid_band.mesh"
+        }
+      ],
+      "shadow": "base\\characters\\common\\hair\\shadow_meshes\\hh_091_pwa__dakota_shadow.mesh",
+      "controller": {
+        "name": "hair_dangle",
+        "rig": "base\\characters\\common\\hair\\hh_091_wa__dakota\\hh_091_wa__dakota_dangle_skeleton.rig",
+        "graph": "base\\characters\\common\\hair\\hh_091_wa__dakota\\hh_091_wa__dakota_dangle_skeleton.animgraph"
+      }
+    },
+    "24": {
+      "binding_target": "hair_dangle",
+      "meshes": [
+        {
+          "component": "hh_hair",
+          "path": "base\\characters\\common\\hair\\hh_064_wa__bob_fringe\\hh_064_wa__bob_fringe.mesh"
+        }
+      ],
+      "shadow": "base\\characters\\common\\hair\\shadow_meshes\\hh_078_wa__evelyn_shadow_npc.mesh",
+      "controller": {
+        "name": "hair_dangle",
+        "rig": "base\\characters\\common\\hair\\hh_064_wa__bob_fringe\\hh_064_wa__bob_fringe_dangle_skeleton.rig",
+        "graph": "base\\characters\\common\\hair\\hh_064_wa__bob_fringe\\hh_064_wa__bob_fringe_dangle.animgraph"
+      }
+    },
+    "33": {
+      "binding_target": "root",
+      "meshes": [
+        {
+          "component": "hh_hair",
+          "path": "base\\characters\\common\\hair\\hh_121_wa__t_bug\\hh_121_wa__t_bug_common.mesh"
+        }
+      ],
+      "shadow": "base\\characters\\common\\hair\\shadow_meshes\\hh_121_wa__t_bug_shadow_npc.mesh",
+      "controller": null
+    },
+    "42": {
+      "binding_target": "root",
+      "meshes": [
+        {
+          "component": "hh_hair",
+          "path": "base\\characters\\common\\hair\\hh_103_ma__maelstrom_spikes\\hh_103_wa__common_spikes.mesh"
+        }
+      ],
+      "shadow": "base\\characters\\common\\hair\\shadow_meshes\\hh_103_ma__maelstrom_spikes_shadow_npc.mesh",
+      "controller": null
+    }
+  },
+  "known_deferred_items": [
+    "Default nipple appearance requires a later visual/material investigation.",
+    "Tutorial clothing remains a validation fixture rather than final generated wardrobe content."
+  ]
+}
