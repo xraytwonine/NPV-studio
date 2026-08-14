@@ -1,7 +1,9 @@
 # NPV-studio
 
 update 8/14/26 - Version 2.0 goals
+
 (completed) Lizzie's Braindances Mod support - 1 click creation of an additional ZIP file to allow particular character to spawn within Lizzie's Braindances mod
+
 (pending) Clothing setup prior to character generation - allow user to customize outfit via .mesh links pulled from wolvenkit - head, torso, arms, legs, feet, items, this will streamline unique character creation process
 
 
