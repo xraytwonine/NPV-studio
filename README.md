@@ -6,7 +6,7 @@ update 8/14/26 - Version 2.0 goals
 
 (pending) Clothing setup prior to character generation - allow user to customize outfit via .mesh links pulled from wolvenkit - head, torso, arms, legs, feet, items, this will streamline unique character creation process
 
-###########################################################################################################
+######################################################################
 
 Look, I am lazy. I don't want to read pages of manuals and poke around multiple freeware that's ultimately incohesive with a steep learning curve... but I ended up doing that anyways, so may be now you don't have to?
 
